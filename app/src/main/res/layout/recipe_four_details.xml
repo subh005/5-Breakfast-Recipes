@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Uttapam"
+            android:textColor="#08c"
+            android:textSize="32sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            />
+        <ImageView android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/uttapam"
+            android:scaleType="centerCrop"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="A traditional delicacy from down South which literally means 'poured appam' in Tamil. Uttapam is a dosa-like preparation made with the batter of rice, dhuli urad dal and fenugreek seeds. "
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Ingredients"
+            android:textColor="#08c"
+            android:textAllCaps="true"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2 cups (360 gm) parboiled rice"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1/2 cup (90 gm) split and husked Bengal Gram (dhuli urad)"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1/2 tsp fenugreek seeds"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2 tsp salt"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="An iron griddle or tawa"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Oil to smear the pan for cooking the uttapam"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Method"
+            android:textColor="#08c"
+            android:textAllCaps="true"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Soak rice, daal and methi in water for 5-6 hours."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Grind fine, add salt and enough water to make a dropping consistency and leave to ferment 5-6 hours."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Heat tawa, and brush oil over it. When really hot, splash a little water over it, and pour about 1 cup of batter on to it."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="It will spread a little. When the edges start browning a bit, pour a trail of oil around it."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Turn it over and let it brown on the other side too."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="For an onion uttapam"
+            android:textColor="#08c"
+            android:textAllCaps="true"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Before you turn the uttapam over, sprinkle a mixture of finely chopped onions, tomatoes, coriander leaves and green chillies."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Happy Breakfast"
+            android:textSize="22sp"
+            android:textColor="#08c"
+            android:textAllCaps="true"
+            android:gravity="center"
+            />
+    </LinearLayout>
+</ScrollView>

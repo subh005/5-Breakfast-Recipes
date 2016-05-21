@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="5 Easy Breakfast Recipes"
+                android:textColor="#0098dc"
+                android:textSize="24sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/dalkaparatha" />
+
+
+                    <CheckBox
+                        android:id="@+id/recipeOne"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="5dp"
+                        android:paddingLeft="20dp"
+                        android:text="Add to Favourite"
+                        android:textColor="#fff"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="28dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginRight="10dp"
+                        android:background="#0098dc"
+                        android:onClick="showRecipeOneDetails"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Get Recipe"
+                        android:textColor="#fff" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="@id/recipeOne"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="5dp"
+                        android:text="Dal Ka Paratha"
+                        android:textColor="#fff"
+                        android:textSize="26sp"
+
+                        />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/moongdalcheela" />
+
+                    <CheckBox
+                        android:id="@+id/recipeTwo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="5dp"
+                        android:paddingLeft="20dp"
+                        android:text="Add to Favourite"
+                        android:textColor="#fff"
+                        android:textSize="16sp" />
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@id/recipeTwo"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:text="Moong Dal Cheela"
+                        android:textColor="#fff"
+                        android:textSize="26sp" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="28dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginRight="10dp"
+                        android:background="#0098dc"
+                        android:onClick="showRecipeTwoDetails"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Get Recipe"
+                        android:textColor="#fff" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/rawaupma" />
+
+                    <CheckBox
+                        android:id="@+id/recipeThree"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="5dp"
+                        android:paddingLeft="20dp"
+                        android:text="Add to Favourite"
+                        android:textColor="#fff"
+                        android:textSize="16sp" />
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:text="Rawa Upma"
+                        android:textColor="#fff"
+                        android:textSize="26sp" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="28dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginRight="10dp"
+                        android:background="#0098dc"
+                        android:onClick="showRecipeThreeDetails"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Get Recipe"
+                        android:textColor="#fff" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/uttapam" />
+
+                    <CheckBox
+                        android:id="@+id/recipeFour"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="5dp"
+                        android:paddingLeft="20dp"
+                        android:text="Add to Favourite"
+                        android:textColor="#fff"
+                        android:textSize="16sp" />
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@id/recipeFour"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:text="Uttapam"
+                        android:textColor="#fff"
+                        android:textSize="26sp" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="28dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginRight="10dp"
+                        android:background="#0098dc"
+                        android:onClick="showRecipeFourDetails"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Get Recipe"
+                        android:textColor="#fff" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="50dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/poha" />
+
+                    <CheckBox
+                        android:id="@+id/recipeFive"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="5dp"
+                        android:paddingLeft="20dp"
+                        android:text="Add to Favourite"
+                        android:textColor="#fff"
+                        android:textSize="16sp" />
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@id/recipeFive"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:text="Poha"
+                        android:textColor="#fff"
+                        android:textSize="26sp" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="28dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginRight="10dp"
+                        android:background="#0098dc"
+                        android:onClick="showRecipeFiveDetails"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Get Recipe"
+                        android:textColor="#fff" />
+                </RelativeLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:background="#666"
+        android:gravity="center"
+        android:onClick="showMyFavourites"
+        android:text="My favourite"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>

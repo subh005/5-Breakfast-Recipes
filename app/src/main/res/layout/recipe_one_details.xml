@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<LinearLayout
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dal Ka Paratha"
+        android:textColor="#08c"
+        android:textSize="32sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        />
+    <ImageView android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/dalkaparatha"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Put leftover dal to some use, stuff it in dough to roll out these perfect dal parathas."
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Ingredients"
+        android:textColor="#08c"
+        android:textAllCaps="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1 cup wheat flour (atta)"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2 tsp oil"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1/2 cup dhuli moong dal (husked green gram) - soaked for 1 hour"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1/2 tsp cumin seeds"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1/8 tsp turmeric powder"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1 pinch asafoetida"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1 tsp salt or to taste"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Method"
+        android:textColor="#08c"
+        android:textAllCaps="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sieve the flour and knead to a soft dough by adding enough water. Keep aside."
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Drain the dal and cook in 1 cup of water. Heat oil in a pan; add the cumin seeds, asafoetida."
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="When the seeds splutter, add the cooked dal, salt, turmeric powder, chilli powder and mix well."
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cook until the dal mixture is dry. Let it cool."
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Break small rounds of the dough. Roll each round a little flat and place some filling in center."
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Close from all sides and roll as thin as you can without tearing."
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Heat a tawa (griddle), and fry the parantha with the ghee, till brown on both sides."
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Happy Breakfast"
+        android:textSize="22sp"
+        android:textColor="#08c"
+        android:textAllCaps="true"
+        android:gravity="center"
+        />
+</LinearLayout>
+</ScrollView>
