@@ -69,7 +69,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentTop="@id/recipeOne"
-                        android:layout_alignParentLeft="true"
                         android:layout_marginLeft="5dp"
                         android:text="Dal Ka Paratha"
                         android:textColor="#fff"
@@ -112,7 +111,7 @@
 
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_alignTop="@id/recipeTwo"
+                        android:layout_alignParentTop="@id/recipeTwo"
                         android:layout_marginBottom="10dp"
                         android:layout_marginLeft="5dp"
                         android:text="Moong Dal Cheela"
@@ -167,6 +166,7 @@
 
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_alignParentTop="@id/recipeThree"
                         android:layout_marginBottom="10dp"
                         android:layout_marginLeft="5dp"
                         android:text="Rawa Upma"
@@ -221,7 +221,7 @@
 
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_above="@id/recipeFour"
+                      android:layout_alignParentTop="@id/recipeFour"
                         android:layout_marginBottom="10dp"
                         android:layout_marginLeft="5dp"
                         android:text="Uttapam"
@@ -276,7 +276,7 @@
 
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_above="@id/recipeFive"
+                       android:layout_alignParentTop="@id/recipeFive"
                         android:layout_marginBottom="10dp"
                         android:layout_marginLeft="5dp"
                         android:text="Poha"
@@ -309,7 +309,7 @@
         android:background="#666"
         android:gravity="center"
         android:onClick="showMyFavourites"
-        android:text="My favourite"
+        android:text="My favourites"
         android:textColor="#fff"
         android:textSize="18sp" />
 
